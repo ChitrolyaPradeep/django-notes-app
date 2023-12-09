@@ -1,5 +1,5 @@
 pipeline {
-    agent any 
+    agent {label: node-apps}
     
     stages{
         stage("Clone Code"){
