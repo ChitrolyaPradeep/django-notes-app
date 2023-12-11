@@ -1,5 +1,5 @@
 pipeline {
-    agent { label "jenkins-app" }
+    agent { label " Jenkins-app " }
     
     stages{
         stage("Clone Code"){
